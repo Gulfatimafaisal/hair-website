@@ -1,0 +1,103 @@
+/* body style */
+  body{
+    margin:0; 
+    font-family: Arial, sans-serif;
+     background-color:#f7dfbc;
+      color:#333;}
+
+
+  /* 1. Navbar */
+  .navbar{
+    background-color:#eba441;
+    padding:15px 40px;
+     text-align: center;
+    }
+
+  .navbar a{
+    
+    font-size:15px;
+     color:#333;
+    text-decoration:none;
+    margin:15px;
+    font-family: Verdana;
+    }
+
+  .btn-orange{
+    background-color:#e67e22; 
+    color:#ffffff !important;
+    padding:6px 20px;
+  }
+  /* 2. Hero Section */
+  .hero{
+    background-color:#f9f3ee;
+     padding:40px;
+      display:flex;
+    }
+
+  .hero h1
+  {font-size:45px;
+     color:#222; 
+     font-family: Georgia;
+    }
+  .hero span{
+    color:#e67e22;
+  }
+  .hero p{
+    font-size:16px;
+     color:#666;
+    }
+  .hero-img{
+    width:90%;
+  }
+
+
+  /* 3. Benefits Section - 4 Boxes */
+  .benefits{
+    background-color:#f49e53; 
+    padding:40px;
+     text-align:center;
+    }
+  .benefits h2{font-size:28px; color:#222; font-family: Georgia;}
+  .box-row{display:flex; gap:15px; justify-content:center;}
+  .box{background-color:#fffaf5; padding:20px; width:22%; text-align:left; border:1px solid #f3e6d8;}
+  .box h3{font-size:16px; color:#222; font-family: Verdana;}
+  .box p{font-size:14px; color:#777;}
+
+
+  /* 4. Ingredients and Reviews */
+  .two-part{
+  background-color:#fdf6ee;
+  padding:40px;
+  display:flex;
+   gap:20px;
+  }
+  .two-part h2{
+    font-size:26px;
+     color:#222;
+      font-family: Georgia;
+    }
+  .review-box{
+    background-color:#e7934a;
+     padding:15px;
+      margin:10px;
+       width:28%;
+        border:1px solid #eee;}
+
+
+  
+  /* 5. Footer */
+  .footer{
+    background-color:#f28b36;
+     color:#211a0b; 
+     padding:50px;
+      text-align:center;
+    }
+  .footer h1{
+    font-size:36px; 
+    color:#090602;
+     font-family: Georgia;
+    }
+
+  
+
+
